@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.reviews {
+    width: 70vw;
+    margin: auto;
+}
+h1,
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+#addReviewForm {
+    margin: 10px;
+}
+
+#reviewsContainer {
+    margin: 10px;
+}
+
+.productName {
+    font-weight: bold;
+    cursor: pointer;
+}
+.productNameAction {
+    color: #c22e2e;
+}
+
+.productInput {
+    margin-bottom: 20px;
+}
+
+.review {
+    margin: 5px 0;
+}
+
+.deleteButton {
+    margin-left: 10px;
+    cursor: pointer;
+}
+

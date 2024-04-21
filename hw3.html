@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="hw3.css">
+<title>Отзывы о продуктах</title>
+</head>
+<body>
+    <article class="reviews">
+        <h1>Добавить отзыв</h1>
+        <form id="addReviewForm">
+            <div class="productInput">
+                <label for="productName">Название продукта:</label>
+                <input type="text" id="productName" name="productName" required>
+            </div>
+            <div class="productInput">
+                <label for="reviewText">Отзыв:</label>
+                <textarea id="reviewText" name="reviewText" rows="4" cols="50" required></textarea>
+            </div>
+            
+            <br>
+            <button type="submit">Добавить отзыв</button>
+        </form>
+    <h2>Список продуктов:</h2>
+    <ul id="productsList"></ul>
+    <div id="reviewsContainer"></div>
+    </article>
+
+    
+
+<script src="js/hw3.js"></script>
+</body>
+</html>
